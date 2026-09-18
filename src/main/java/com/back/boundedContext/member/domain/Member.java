@@ -1,7 +1,6 @@
 package com.back.boundedContext.member.domain;
 
-import com.back.global.jpa.entity.BaseIdAndTime;
-import jakarta.persistence.Column;
+import com.back.boundedContext.shared.member.domain.SourceMember;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.Getter;

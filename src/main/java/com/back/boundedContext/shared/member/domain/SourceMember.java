@@ -1,4 +1,4 @@
-package com.back.boundedContext.member.domain;
+package com.back.boundedContext.shared.member.domain;
 
 
 import jakarta.persistence.EntityListeners;

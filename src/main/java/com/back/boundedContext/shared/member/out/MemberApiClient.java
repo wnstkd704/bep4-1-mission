@@ -1,4 +1,4 @@
-package com.back.boundedContext.member.out;
+package com.back.boundedContext.shared.member.out;
 
 
 import org.springframework.stereotype.Service;
