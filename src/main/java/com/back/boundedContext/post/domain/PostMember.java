@@ -1,5 +1,6 @@
 package com.back.boundedContext.post.domain;
 
+import com.back.boundedContext.member.domain.ReplicaMember;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.Getter;
