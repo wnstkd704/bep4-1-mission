@@ -2,9 +2,9 @@ package com.back.boundedContext.market.app;
 
 import com.back.boundedContext.market.domain.MarketMember;
 import com.back.boundedContext.market.out.MarketMemberRepository;
-import com.back.boundedContext.shared.market.dto.MarketMemberDto;
-import com.back.boundedContext.shared.market.event.MarketMemberCreatedEvent;
-import com.back.boundedContext.shared.member.dto.MemberDto;
+import com.back.shared.market.dto.MarketMemberDto;
+import com.back.shared.market.event.MarketMemberCreatedEvent;
+import com.back.shared.member.dto.MemberDto;
 import com.back.global.eventPublisher.EventPublisher;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

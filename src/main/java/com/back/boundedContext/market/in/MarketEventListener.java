@@ -1,9 +1,9 @@
 package com.back.boundedContext.market.in;
 
 import com.back.boundedContext.market.app.MarketFacade;
-import com.back.boundedContext.shared.market.event.MarketMemberCreatedEvent;
-import com.back.boundedContext.shared.member.event.MemberJoinedEvent;
-import com.back.boundedContext.shared.member.event.MemberModifiedEvent;
+import com.back.shared.market.event.MarketMemberCreatedEvent;
+import com.back.shared.member.event.MemberJoinedEvent;
+import com.back.shared.member.event.MemberModifiedEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
