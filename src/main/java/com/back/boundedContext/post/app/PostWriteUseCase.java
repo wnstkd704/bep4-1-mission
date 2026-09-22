@@ -5,7 +5,6 @@ import com.back.boundedContext.post.domain.Post;
 import com.back.boundedContext.post.domain.PostMember;
 import com.back.boundedContext.post.out.PostRepository;
 import com.back.shared.member.out.MemberApiClient;
-import com.back.shared.post.dto.PostDto;
 import com.back.shared.post.event.PostCreatedEvent;
 import com.back.global.eventPublisher.EventPublisher;
 import com.back.global.rsData.RsData;
@@ -24,7 +23,7 @@ public class PostWriteUseCase {
 
         eventPublisher.publish(
                 new PostCreatedEvent(
-                        new PostDto(post)
+                        post.toDto()
                 )
         );
 
