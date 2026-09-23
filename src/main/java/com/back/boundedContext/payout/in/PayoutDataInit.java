@@ -48,10 +48,10 @@ public class PayoutDataInit {
     @Order(4)
     public ApplicationRunner payoutDataInitApplicationRunner() {
         return args -> {
-            self.forceMakePayoutReadyCandidatesItems();
-            self.collectPayoutItemsMore();
-            self.completePayoutsMore();
-            self.runCollectItemsAndCompletePayoutsBatchJob();
+            //self.forceMakePayoutReadyCandidatesItems();
+//            self.collectPayoutItemsMore();
+//            self.completePayoutsMore();
+              self.runCollectItemsAndCompletePayoutsBatchJob();
         };
     }
 
